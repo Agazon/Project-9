@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hillel home work</title>
+</head>
+<body>
+    <script>
+                /* var FizzBuzz = function(n){
+                    for(var i = 1;i <= n;i++){
+                        if(i % 5 === 0 && i % 3 === 0){
+                            console.log("fizzbuzz");
+                            }
+                            else if(i % 3 ===0){
+                                console.log("fizz");
+                            }
+                            else if(i % 5 === 0 ){
+                                console.log("buzz");
+                            }
+                            else{
+                                console.log(i);
+                            }          
+                        }             
+                    }
+                    FizzBuzz(15); */
+         
+
+// Гласными являются «a», «e», «i», «o», «u».
+      
+        /*var CountStr = function(string){
+             let count = 0;
+             for(var i = 1;i <= string.length;i++){
+              if(string[i] === "a"||string[i] === "e"||string[i] === "i"||string[i] === "o"||string[i] === "u"){
+                 ++count;
+              }                 
+             }
+             console.log(count); 
+        }
+        CountStr("syoasgeiageu"); */
+
+
+    function fibon(n) {
+            let a = 1;
+            let b = 1;
+            for (let i = 3; i <= n; i++) {
+                 let c = a + b;
+                 a = b;
+                 b = c;
+            }
+            return b;
+        }   
+        console.log(fibon(7)); 
+
+
+    
+    
+    </script>
+</body>
+</html>
